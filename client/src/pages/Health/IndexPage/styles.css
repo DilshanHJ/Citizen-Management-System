@@ -1,0 +1,180 @@
+/* .home-main{
+      width: 100vw;
+      display: flex;
+      flex-direction: row;
+      
+}
+
+.sidenav{
+      width:256px;
+      min-height: 100vh;
+      background-color: rgba(0, 0, 0, 0.336);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 40px;
+      padding-top: 30px;
+
+}
+
+.sidenav .nav-container{
+      width:100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+}
+
+.sidenav img{
+      width:86px;
+}
+
+.sidenav .nav-link-Icon{
+      font-size: 24px;
+}
+.sidenav-link{
+      width:95%;
+      font-size: 20px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: baseline;
+      gap: 10px;
+      padding-left: 10px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      align-items: center;
+      border-radius: 10px;
+      transition-timing-function: ease-in;
+      transition-duration: 0.3s;
+}
+.fa-pills>path,
+.fa-book-skull>path,
+.fa-user-injured>path,
+.fa-person-breastfeeding>path,
+.fa-list-ul>path,
+.fa-clipboard-check>path{
+      transition-timing-function: ease-in;
+      transition-duration: 0.3s;
+}
+.sidenav-link:hover{
+      background-color: rgba(180, 162, 0, 0.726);
+      color: black;
+      .fa-pills>path,
+      .fa-book-skull>path,
+      .fa-user-injured>path,
+      .fa-person-breastfeeding>path,
+      .fa-list-ul>path,
+      .fa-clipboard-check>path{
+            color: black;
+            transition-timing-function: ease-in;
+            transition-duration: 0.3s;
+      }
+} 
+
+.nav-active{
+      background-color: rgba(180, 162, 0, 0.726);
+      color: black;
+      .fa-pills>path,
+      .fa-book-skull>path,
+      .fa-user-injured>path,
+      .fa-person-breastfeeding>path,
+      .fa-list-ul>path,
+      .fa-clipboard-check>path{
+            color: black;
+            transition-timing-function: ease-in;
+            transition-duration: 0.3s;
+      }
+     
+}
+
+.form-container{
+      width:calc(100% - 256px);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 10px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+}
+
+
+
+
+@media only screen and (max-width:600px) {
+      .home-main{
+            width: 100vw;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column-reverse;
+            
+      }
+
+      .sidenav{
+            position: fixed;
+            bottom: 0px;
+            z-index: 100;
+            width:100vw;
+            height: 70px;
+            min-height: 50px;
+            padding: 0px;
+            align-items: center;
+            justify-content: center;
+            gap: 0px;
+      }
+      .sidenav:hover{
+            background-color: black;
+      }
+
+      .sidenav img{
+            width:0px;
+            display: none;
+      }
+
+      .sidenav .nav-link-Icon{
+            margin-right: 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+      }
+
+      .sidenav .nav-container{
+            width:100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+      }
+
+      .sidenav-link{
+            width:50px;
+            font-size: 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            align-items: center;
+            border-radius: 10px;
+            transition-timing-function: ease-in;
+            transition-duration: 0.3s;
+      }
+
+      .form-container{
+            width:100%;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 10px;
+            padding-top: 30px;
+            margin-bottom: 30px;
+      }
+
+      
+} */

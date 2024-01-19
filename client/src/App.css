@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Source+Sans+3:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap');
+
+root{
+      --xs:480px;
+      --sm:768px;
+      --md:1024px;
+      --lg:1200px;
+      --xl:100vw;
+}
+
+.text-head{
+      font-family: 'Oswald', sans-serif;
+}
+.text-body{
+      font-family:'Source Sans 3', sans-serif;
+}
+*{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      color: aliceblue;
+}
+
+
+body{
+
+      background-image: url('./assets/main-background.svg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow-x:hidden;
+      
+      align-items: center;
+}
+
+h1{
+      font-size: 48px;
+      font-family: 'Oswald', sans-serif;
+}
+h2{
+      font-size: 36px;
+      font-family: 'Oswald', sans-serif;
+}
+h3{
+      font-size: 30px;
+      font-family: 'Oswald', sans-serif;
+}
+h4{
+      font-size: 24px;
+      font-family: 'Oswald', sans-serif;
+}
+h5{
+      font-size: 18px;
+      font-family: 'Oswald', sans-serif;
+}
+h6{
+      font-size: 12px;
+      font-family: 'Oswald', sans-serif;
+}
+
+p{
+      font-family:'Source Sans 3', sans-serif;
+}
+
+form{
+      width:95%;
+      background-color: rgba(240, 248, 255, 0.534);
+      min-height: 100px;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      padding: 30px;
+      font-family:'Source Sans 3', sans-serif;
+}
+
+label{
+      font-family:'Source Sans 3', sans-serif;
+      font-weight: bolder;
+      margin-bottom: 10px;
+}
+
+form div{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      font-family:'Source Sans 3', sans-serif;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: space-between;
+      margin-bottom: 35px;
+}
+
+input{
+      font-family:'Source Sans 3', sans-serif;
+      background-color: rgba(240, 248, 255, 0.445);
+      min-width: 100px;
+
+      border: solid rgba(236, 236, 236, 0.308) 2px;
+      color: rgba(87, 87, 87, 0.781);
+      border-radius: 4px;
+      padding: 2px;
+}
+
+select{
+      font-family:'Source Sans 3', sans-serif;
+      background-color: rgba(240, 248, 255, 0.445);
+      min-width: 100px;
+
+      border: solid rgba(236, 236, 236, 0.308) 2px;
+      color: rgba(87, 87, 87, 0.781);
+      border-radius: 4px;
+      padding: 2px;
+}
+
+select option{
+      color: rgba(87, 87, 87, 0.781);
+      background-color: rgba(240, 248, 255, 0.445);
+}
+
+input:focus-visible{
+      outline: none;
+}
+
+select:focus-visible{
+      outline: none;
+}
+
+button{
+      font-weight: bolder;
+      font-size: medium;
+      font-family:'Source Sans 3', sans-serif;
+      background-color: rgba(0, 0, 0, 0.726);
+      border: none;
+      padding: 5px;
+      border-radius: 5px;
+
+}
+
+button:hover{
+      background-color: rgba(77, 77, 77, 0.199);
+      color: rgba(0, 0, 0, 0.671);
+
+}
+input[Type='file']{
+      padding: 0px;
+      height: 24px;
+      
+}
+input::file-selector-button{
+      margin: 0p;
+      background-color: rgba(0, 0, 0, 0.726);
+      height: 100%;
+      border-radius: 4px;
+      color: aliceblue;
+      border: none;
+}
+
+input::file-selector-button:hover{
+      background-color: rgba(77, 77, 77, 0.199);
+      color: rgba(0, 0, 0, 0.671);
+}
+
+table{
+      background-color:rgba(0, 0, 255, 0.050);
+      border-radius: 10px;
+      padding: 10px;
+      margin-bottom: 20px;
+}
+th{
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 5px;
+}
+
+tr{
+      background-color: rgba(169, 215, 255, 0.39);     
+}
+td{
+      text-align: justify;
+      padding: 5px;
+}
+
+
+.home-main{
+      width: 100vw;
+      display: flex;
+      flex-direction: row;
+      
+}
+
+.sidenav{
+      width:256px;
+      min-height: 100vh;
+      background-color: rgba(0, 0, 0, 0.336);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 40px;
+      padding-top: 30px;
+
+}
+
+.sidenav .nav-container{
+      width:100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+}
+
+.sidenav img{
+      width:86px;
+}
+
+.sidenav .nav-link-Icon{
+      font-size: 24px;
+}
+.sidenav-link{
+      width:95%;
+      font-size: 20px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: baseline;
+      gap: 10px;
+      padding-left: 10px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      align-items: center;
+      border-radius: 10px;
+      transition-timing-function: ease-in;
+      transition-duration: 0.3s;
+}
+.fa-pills>path,
+.fa-book-skull>path,
+.fa-user-injured>path,
+.fa-person-breastfeeding>path,
+.fa-list-ul>path,
+.fa-clipboard-check>path,
+.fa-file-pen>path,
+.fa-person>path,
+.fa-heart>path,
+.fa-heart-crack>path{
+      transition-timing-function: ease-in;
+      transition-duration: 0.3s;
+}
+.sidenav-link:hover{
+      background-color: rgba(180, 162, 0, 0.726);
+      color: black;
+      .fa-pills>path,
+      .fa-book-skull>path,
+      .fa-user-injured>path,
+      .fa-person-breastfeeding>path,
+      .fa-list-ul>path,
+      .fa-clipboard-check>path,
+      .fa-file-pen>path,
+      .fa-person>path,
+      .fa-heart>path,
+      .fa-heart-crack>path{
+            color: black;
+            transition-timing-function: ease-in;
+            transition-duration: 0.3s;
+      }
+}
+
+.nav-active{
+      background-color: rgba(180, 162, 0, 0.726);
+      color: black;
+      .fa-pills>path,
+      .fa-book-skull>path,
+      .fa-user-injured>path,
+      .fa-person-breastfeeding>path,
+      .fa-list-ul>path,
+      .fa-clipboard-check>path,
+      .fa-file-pen>path,
+      .fa-person>path,
+      .fa-heart>path,
+      .fa-heart-crack>path{
+            color: black;
+            transition-timing-function: ease-in;
+            transition-duration: 0.3s;
+      }
+}
+
+.form-container{
+      width:calc(100% - 256px);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 10px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+}
+
+
+
+
+@media only screen and (max-width:600px) {
+      .home-main{
+            width: 100vw;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column-reverse;
+            
+      }
+
+      .sidenav{
+            position: fixed;
+            bottom: 0px;
+            z-index: 100;
+            width:100vw;
+            height: 70px;
+            min-height: 50px;
+            padding: 0px;
+            align-items: center;
+            justify-content: center;
+            gap: 0px;
+      }
+      .sidenav:hover{
+            background-color: black;
+      }
+
+      .sidenav img{
+            width:0px;
+            display: none;
+      }
+      .sidenav h4{
+            display: none;
+      }
+
+      .sidenav .nav-link-Icon{
+            margin-right: 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+      }
+
+      .sidenav .nav-container{
+            width:100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+      }
+
+      .sidenav-link{
+            width:50px;
+            font-size: 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            align-items: center;
+            border-radius: 10px;
+            transition-timing-function: ease-in;
+            transition-duration: 0.3s;
+      }
+
+      .form-container{
+            width:100%;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 10px;
+            padding-top: 30px;
+            margin-bottom: 30px;
+      }
+
+      
+}
